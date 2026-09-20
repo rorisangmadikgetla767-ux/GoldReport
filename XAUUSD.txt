@@ -1,0 +1,1 @@
+{"Influence": "Geopolitics, Oilprice, Dollar, FedRates", "Price": 4377.29, "Direction": "Bullish", "Date": "2026-09-20 11:50:38"}
