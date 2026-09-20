@@ -19,4 +19,18 @@ class XAUUSD:
             "Direction": self.Direction,
             "Date": self.Date
         }   
-            
+class Trades:
+    def __init__(self, lotsize: float, Amount: int, Results: str, AccountSize: float = 0):
+        
+        self._lotsize = lotsize
+        self._Amount = Amount
+        self._Results = Results
+        self._AccountSize =AccountSize
+        self.date = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+    
+    @property
+    def lotsize(self):
+        return self.lotsize
+    
+    @property
+               
